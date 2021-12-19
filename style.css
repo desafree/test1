@@ -1,0 +1,690 @@
+
+
+
+
+
+
+/* default style */
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* intestation */
+
+.intestationLine{
+    background-color: #103368;
+}
+
+.telInfo{
+    font-size: small;
+}
+
+/* navbar */
+
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+
+/* img background section */
+
+.backgroundImage{
+    background: url(img/shutterstock_81251641.png) no-repeat center center;
+    background-size: cover;
+    min-height: 80%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.title{
+    width: 30%;
+    color: white;
+    margin-left: 20%;
+}
+
+.title h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title h6{
+    font-size: 20px;
+}
+
+/* Chi Siamo section */
+
+
+.chisiamoTitle{
+    font-size: 32px;
+    border-top: #FA2905 solid 2px;
+    color: #103368;
+}
+
+.firstParagraph{
+    font-size: 20px;
+
+}
+
+.secondParagraph{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/* images section */
+
+
+.images .col-lg-4{
+    height: 400px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: url(img/6.png) no-repeat center center;
+    background-size: cover;
+    transition: transform 1s;
+    transform:none;
+    transform-style: preserve-3d;
+    
+}
+
+.images .col-lg-4 h4{
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.line{
+    width: 20%;
+    margin: 0px auto;
+    border: 1px solid #FA2905;
+}
+
+.images .col-lg-4:hover{
+    transform: rotateY(180deg) scale(-1, 1);
+    
+
+}
+
+.images .col-lg-4:hover h4 {
+  display: none
+}
+
+.images .col-lg-4:hover .line {
+    display: none
+  }
+
+.images .col-lg-4 p {
+    display: none;
+    color: white;
+    padding: 20px;
+    margin: 0px auto;
+  }
+
+.images .col-lg-4:hover p {
+  display: block;
+}
+
+
+
+
+
+/* serramenti section */
+
+.production{
+    background-color: #EEEFF0;
+    margin: 0px;
+}
+
+.production h3{
+    font-size: 32px;
+    color: #103368;
+}
+
+.line2{
+    width: 20%;
+    border: 1px solid #FA2905;
+    
+}
+
+
+
+/* realizzazioni section */
+
+
+
+.line3{
+    width: 10%;
+    border: 1px solid #FA2905;
+    
+}
+
+
+.firstP{
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.secondP{
+    margin-bottom: 40px;
+}
+
+.callToAction{
+    color: #FA2905;
+}
+
+.lastDiv {
+    border-bottom: #FA2905 solid 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.bi-arrow-up-right{
+    color: #FA2905;
+}
+
+.realizzazioniCard p, .realizzazioniCard a{
+    margin-bottom: 30px;
+}
+
+.cardBox{
+    padding: 20px;
+    box-shadow: none;
+}
+
+.cardBox:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+/* area tecnica */
+
+.tecSection{
+    background-image: url(img/tecBack.png); 
+    background-size: cover;
+}
+
+.line4{
+    border: #FA2905 solid 2px;
+    width: 30%;
+
+}
+
+.buttonTec{
+    width: 45%;
+    margin-right: 10px;
+
+}
+
+.buttonTec i{
+    margin-left: 20px;
+}
+
+.tecSection h3{
+    font-size: 32px;
+}
+
+.tecSection h5{
+    font-size: 20px;
+}
+
+.tecSection p{
+    font-size: 18px;
+}
+
+.tecSection a{
+    font-size: 14px;
+}
+/* form section */
+
+
+.cont3 .col-md-3{
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 0px 10px;
+    margin: 10px;
+}
+
+.cont3 .col-12{
+    width: 97.5%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cont3 input{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+}
+
+.cont3 input:focus{
+    outline: none;
+}
+
+.cont3 textarea{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+}
+
+.cont3 textarea:focus{
+    outline: none;
+}
+
+.container1 {
+    width: 100%;
+
+}
+
+.cont1 {
+    border: 1px solid white;
+    padding: 0px;
+}
+
+textarea{
+    width: 100%;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+.cont1 textarea{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+}
+
+.check div{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.footer p{
+    color: #7F7F7F;
+    font-size: 9px;
+}
+/* media queries */
+
+ /* Extra small devices (phones, 600px and down) */
+ @media  screen and (max-width: 600px) {
+    
+    /* section image header */
+    .title h1{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .title h6{
+        font-size: 15px;
+    }
+
+    /* section chi siamo */
+
+    .chisiamoTitle{
+        font-size: 20px;
+        border-top: #FA2905 solid 2px;
+        color: #103368;
+    }
+    
+    .firstParagraph{
+        font-size: 12px;
+    
+    }
+    
+    .secondParagraph{
+        font-size: 9px;
+        font-weight: bold;
+    }
+
+    .iconChisiamo{
+        font-size: 12px;
+    }
+
+    .bottonChiSiamo{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /* serramenti */
+
+    .production h3{
+        font-size: 20px;
+        color: #103368;
+    }
+
+    .production p{
+        font-size: 12px;
+    }
+
+    .production a{
+        font-size: 12px;
+    }
+
+    /* realizzazioni section */
+
+    .realizzazzioni h3{
+        font-size: 20px;
+    }
+
+    .realizzazzioni h5{
+        font-size: 16px;
+    }
+
+    .realizzazzioni p{
+        font-size: 12px;
+    }
+
+    /* tec section */
+    
+    .tecSection h3{
+        font-size: 20px;
+    }
+    
+    .tecSection h5{
+        font-size: 16px;
+    }
+    
+    .tecSection p{
+        font-size: 12px;
+    }
+    
+
+    .tecSection a{
+        font-size: 12px;
+    }
+
+
+    /* form section */
+
+    .sectionForm{
+        padding: 20px !important;
+    }
+
+    .sectionContainer{
+        padding: 5px !important;
+    }
+
+    .sectionForm h3{
+        font-size: 20px;
+    }
+
+    .sectionForm p{
+        font-size: 12px;
+    }
+
+    .sectionForm label{
+        font-size: 12px;
+    }
+
+    .sectionForm button{
+        font-size: 9px;
+    }
+
+    .sectionForm .checkP{
+        font-size: 9px;
+    }
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+
+    .title h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .title h6{
+        font-size: 20px;
+    }
+
+    .chisiamoTitle{
+        font-size: 25px;
+        border-top: #FA2905 solid 2px;
+        color: #103368;
+    }
+    
+    .firstParagraph{
+        font-size: 15px;
+    
+    }
+    
+    .secondParagraph{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .iconChisiamo{
+        font-size: 15px;
+    }
+
+    .bottonChiSiamo{
+        font-size: 15px;
+    }
+
+
+    /* serramenti */
+
+    .production h3{
+        font-size: 25px;
+        color: #103368;
+    }
+
+    .production p{
+        font-size: 15px;
+    }
+
+    .production a{
+        font-size: 15px;
+    }
+
+    /* realizzazioni section */
+
+    .realizzazzioni h3{
+        font-size: 25px;
+    }
+
+    .realizzazzioni h5{
+        font-size: 20px;
+    }
+
+    .realizzazzioni p{
+        font-size: 15px;
+    }
+
+    /* tec section */
+    
+    .tecSection h3{
+        font-size: 25px;
+    }
+    
+    .tecSection h5{
+        font-size: 20px;
+    }
+    
+    .tecSection p{
+        font-size: 15px;
+    }
+    
+
+    .tecSection a{
+        font-size: 15px;
+    }
+
+    /* form */
+
+    .sectionForm h3{
+        font-size: 25px;
+    }
+
+    .sectionForm p{
+        font-size: 15px;
+    }
+
+    .sectionForm label{
+        font-size: 15px;
+    }
+
+    .sectionForm button{
+        font-size: 12px;
+    }
+
+    .sectionForm .checkP{
+        font-size: 12px;
+    }
+
+    .footer p{
+        font-size: 6px;
+    }
+    
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+
+    .intestationLine a{
+        font-size: 8px;
+    }
+
+    .navbar-nav a{
+        font-size: 12px;
+    }
+
+    .title h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .title h6{
+        font-size: 25px;
+    }
+
+    .chisiamoTitle{
+        font-size: 30px;
+        border-top: #FA2905 solid 2px;
+        color: #103368;
+    }
+    
+    .firstParagraph{
+        font-size: 18px;
+    
+    }
+    
+    .secondParagraph{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .iconChisiamo{
+        font-size: 18px;
+    }
+
+    .bottonChiSiamo{
+        font-size: 18px;
+    }
+    
+    /* serramenti */
+
+    .production h3{
+        font-size: 30px;
+        color: #103368;
+    }
+    
+    .production p{
+        font-size: 18px;
+    }
+    
+    .production a{
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    /* realizzazioni section */
+
+    .realizzazzioni h3{
+        font-size: 30px;
+    }
+    
+    .realizzazzioni h5{
+        font-size: 24px;
+    }
+    
+    .realizzazzioni p{
+        font-size: 18px;
+    }
+
+    /* tec section */
+    
+    .tecSection h3{
+        font-size: 30px;
+    }
+    
+    .tecSection h5{
+        font-size: 24px;
+    }
+    
+    .tecSection p{
+        font-size: 15px;
+    }
+
+    .cont3 .col-md-3{
+        width: 29%;
+    }
+
+    .footer p{
+        font-size: 9px;
+    }
+ }
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+
+    .intestationLine a{
+        font-size: 12px;
+    }
+
+    .navbar-nav a{
+        font-size: 18px;
+    }
+
+    .cont3 .col-md-3{
+        box-sizing: border-box;
+        border: 1px solid white;
+        padding: 0px 10px;
+        margin: 10px;
+        width: 30%;
+    }
+ }
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {} 
