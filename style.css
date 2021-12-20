@@ -110,7 +110,7 @@ a{
     width: 20%;
     margin: 0px auto;
     background-color: #FA2905;
-    border-top: 1px solid #FA2905;
+    border-top: 2px solid #FA2905;
 }
 
 .images .col-lg-4:hover{
@@ -156,7 +156,7 @@ a{
 
 .line2{
     width: 20%;
-    border-top: 1px solid #FA2905;
+    border-top: 2px solid #FA2905;
     background-color: #FA2905;
     
 }
@@ -169,7 +169,7 @@ a{
 
 .line3{
     width: 10%;
-    border-top: 1px solid #FA2905;
+    border-top: 2px solid #FA2905;
     background-color: #FA2905;
     
 }
